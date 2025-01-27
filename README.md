@@ -13,15 +13,15 @@ Check for missing values with df.isnull().sum().
 Get a quick summary of the data using df.describe() for numerical features or df.info() for general structure.  
 Data Cleaning:  
 
-Handle missing values using imputation or removal with df.fillna() or df.dropna().
-Remove or handle outliers by using methods like IQR or Z-scores.
-Convert data types as needed, e.g., df['column'] = df['column'].astype('int').
-Visualizations:
+Handle missing values using imputation or removal with df.fillna() or df.dropna(). 
+Remove or handle outliers by using methods like IQR or Z-scores.  
+Convert data types as needed, e.g., df['column'] = df['column'].astype('int').  
+Visualizations:  
 
-Univariate: Plot histograms or box plots to check distributions of individual features (use plt.hist(), sns.boxplot()).
-Bivariate: Visualize relationships between features using scatter plots, pair plots (sns.pairplot()), or correlation heatmaps (sns.heatmap()).
-Categorical Data: Use bar plots or count plots to understand categorical features (sns.countplot()).
-Insights Extraction:
+Univariate: Plot histograms or box plots to check distributions of individual features (use plt.hist(), sns.boxplot()).  
+Bivariate: Visualize relationships between features using scatter plots, pair plots (sns.pairplot()), or correlation heatmaps (sns.heatmap()).  
+Categorical Data: Use bar plots or count plots to understand categorical features (sns.countplot()).  
+Insights Extraction:  
 
-Identify trends, correlations, or anomalies.
-Summarize findings to guide further analysis or model development.
+Identify trends, correlations, or anomalies.  
+Summarize findings to guide further analysis or model development.  
